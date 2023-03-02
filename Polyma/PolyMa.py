@@ -57,7 +57,7 @@ class MainThread(QThread):
 
         try:
             print("Recognizing...")
-            query = r.recognize_google(audio, language='en-in')
+            self.query = r.recognize_google(audio, language='en-in')
             print("User said: ", self.query)
 
         except sr.RequestError:
