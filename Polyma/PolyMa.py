@@ -37,7 +37,7 @@ def wishMe():
     else:
         speak("Good evening!")
 
-    speak("I am Jarvis sir. please tell me how may i help you?")
+    speak("I am Polyma sir. please tell me how may i help you?")
 
 
 class MainThread(QThread):
