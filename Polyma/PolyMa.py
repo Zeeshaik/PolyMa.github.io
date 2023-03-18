@@ -77,7 +77,7 @@ class MainThread(QThread):
                 if "what is your name" in self.query:
                     speak("My name is Jarvis")
 
-                elif 'play online' in self.query:
+                elif 'play' in self.query:
                     song = self.query.replace('play', '')
                     speak('playing online')
                     pywhatkit.playonyt(song)
